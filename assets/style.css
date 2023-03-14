@@ -1,0 +1,92 @@
+/* style.css */
+body {
+  background-color: #1e2130;
+  color: white;
+}
+
+/* Header */
+.my-header-container {
+    display: flex;
+    #align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.my-header-img {
+  background-image: url('/assets/vereo.ico');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+  flex: 0 0 20%;
+}
+
+.my-header{
+  text-align: center;
+  #text-decoration: underline 3px solid #333333;
+  flex: 0 0 55%;
+  font-size: 34px;
+  color: white;
+  font-family: Algerian, sans-serif;
+
+}
+
+.my-trademark{
+  flex: 0 0 20%;
+  text-align: right;
+}
+
+/* Table Containers */
+.my-table-container-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.my-table-container1 {
+  flex: 0 0 20%;
+  margin-left: 5%;
+  background-color: #1e2130;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.my-table-container2 {
+  flex: 0 0 45%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.my-table-container3 {
+  flex: 0 0 20%;
+  margin-left: -3%;
+  margin-top: 70px;
+}
+
+/* Tables */
+.my-table {
+  border-collapse: collapse;
+  width: 100;
+  font-size: 16px;
+  text-align: center;
+}
+
+.my-table th {
+  color: white;
+  text-align: center;
+  background-color: #2596be;
+  border: 3px solid none;
+  border-radius: 3.5px;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.my-table td {
+  border: 3px solid none;
+  border-radius: 3.5px;
+  text-align: center;
+  padding: 8px;
+}
+
+.my-table tr:hover {
+  background-color: #2596be;
+}
